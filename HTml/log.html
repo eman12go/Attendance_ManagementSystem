@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../Images/Logo.png" type="image/gif" sizes="16x16">
+    <title>LOGIN_Page</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/Register.css">
+    
+</head>
+<body>
+    <div class="container  mt-5 mx-auto">
+        <section >
+          <h1 class="text-center">Login </h1>
+                <form class="row  needs-validation">
+                  <div class="mb-3  ">
+                    <label class="form-label col-4"  id="">Your role</label>  
+                    <input type="radio" checked name="idChecked" id="chBtnEmployee" autocomplete="off">
+                    <label class="ch-btn col  btn " for="chBtnEmployee">Employee</label>
+                    <input type="radio"  class="ms-3" id="chBtnSucirty" name="idChecked" autocomplete="off">
+                    <label class="ch-btn col  btn " for="chBtnSucirty">Security</label>
+                    
+                </div>
+                <div>
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+
+                      <div class="input-group has-validation">
+
+                        <span class="" id="inputGroupPrepend">@</span>
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback text-danger">
+                          Please choose a valid username.
+                        </div>
+                        <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      </div>
+                    </div> 
+                    
+                    <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"  required>
+                            <span id="invalid_pass"style="display:none;" class="text-danger">not correct password</span>
+                            <a href="./ResetPass.html"class="text-decoration-none">Forgot your password?</a>
+                            </div>
+                    
+                    
+                    <div class="mt-3 btns ">
+                      <button class="btn btn-primary log mx-3" type="submit">login Now</button>
+                      <a class="btn btn-outline-primary backregister " href="./index.html">create Account</a> 
+                      
+                    </div>
+                  </form>
+        </section>
+        
+    </div>
+    
+      
+    <script src="./../JS/jquery-3.1.1.min.js"></script>
+    <script src="./../JS/log.js"></script>
+
+  
+</body>
+</html>

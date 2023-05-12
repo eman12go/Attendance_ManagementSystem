@@ -1,0 +1,20 @@
+validation in register :
+constrain for each input + for mail and user names from db.json to prevent daplicated
+-mail  =>   isvalidemail+ isDaplicateEmail 
+-data of user not join in db before virfy with code in mail which send
+-send mail by using: smtpjs.com =>to every user & virfy his account before join him in db
+
+
+Today => حضور واصراف
+attend=> day only حضره فعلا     => when leave
+dayattend => day attend + friday   => when come
+absent=>calc ==> dayattend 
+
+friday => dayAttend as join but valid days in attend
+at end of day=>
+            after 7 absent employee add
+
+Admin => user=emanAdmin && pass=123456
+
+reset pass =>new pass send to mail
+

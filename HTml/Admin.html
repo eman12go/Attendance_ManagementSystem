@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../Images/Logo.png" type="image/gif" sizes="16x16">
+    <title>admin_Page</title>
+   
+    <!-- Bootstrap core CSS -->
+    <script src="./../JS/jquery-3.5.1.js"></script>
+    
+    <script type="text/javascript" src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="./../CSS/bootstrap.min.css">
+    <link rel="stylesheet"type="text/css" href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./../CSS/admin.css">
+</head>
+
+<body>
+    <div id="container-fluid">
+        <section id="sec">
+            <input type="button" class="li col-3" id="empdata" value="All employee" />
+            <input type="button" class="li col-3" id="securitydata" value="All security" />
+            <input type="button" class="li col-3" id="lateRep" value="Late Report" />
+            <input type="button" class="li col-3" id="repexc" value="Excuse report" />
+            <input type="button" class="li col-3" id="breif" value="New Employee" />
+        </section>
+    </div>
+    <div>
+        <div class="card">
+            <!-- <table id="datatable" style="background-color:lightblue;"> -->
+                <div class="card-body" id="cardBody" style="background-color:lightblue;">
+                </div>
+
+            <!-- </table> -->
+        </div>
+
+    </div>
+
+<script>
+    // $('#datatable').dataTable();
+</script>
+<script src="./../JS/admin.js"></script>
+</body>
+
+</html>

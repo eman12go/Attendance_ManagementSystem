@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/Logo.png" type="image/gif" sizes="16x16">
+    <title>profile</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/EmployeeProfile.css">
+    <link rel="stylesheet" href="./../Icon/fontawesome-free-6.1.1-web/css/all.css">
+    <script src="./../JS/jquery-3.5.1.js"></script>
+    
+    <script type="text/javascript" src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="./../CSS/bootstrap.min.css">
+    <link rel="stylesheet"type="text/css" href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./../CSS/admin.css">
+</head>
+<body>
+  <header class="fixed-top shadow  bg-body rounded">
+    <nav class="navbar navbar-expand-lg navbar">
+        <div class="container-fluid">
+          
+            <button class="navbar-toggler  btn btn-outline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fa-solid fa-bars navbar-toggler-icon dark"></i></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  
+                     <input type="button" class="li col-3"style=" color: #0053cb;" id="home" value="Home" />
+                    
+                    <input type="button" class="li col-3 " id="empdata" value="All employee" />
+                    <input type="button" class="li col-3" id="addendance" value="Employee Addendance" />
+                    <input type="button" class="li col-3" id="lateRep" value="Late Report" />
+                    <input type="button" class="li col-3" id="repexc" value="Excuse report" />
+                    
+                </ul>
+            
+            <div class="nav-profile d-grid gap-2 d-md-flex justify-content-md-end">
+                <img src="./../Images/pexels-cottonbro-studio-4100670.jpg" class="nav-img rounded-circle"width="60px" alt="photo">
+                <select class="nav-name rounded-pill form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected id="fname">Muhammad E.</option>
+                    <option value="1">setting</option>
+                    <option value="2">Edit profile</option>
+                    <option value="3"class="text-danger">log Out</option>
+                </select>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+<section class="vh-100" style="background-color: #f4f5f7; position:relative;top:200px;">
+  <div class="container py-5 h-100 "id="homeDiv">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-lg-6 mb-4 mb-lg-0">
+        <div class="card mb-3" style="border-radius: .5rem;">
+          <div class="row g-0">
+            <div class="col-md-4 gradient-custom  text-center text-white"
+              style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem; background-color: rgb(223, 124, 139);">
+              <img src="./../Images/pexels-cottonbro-studio-4100670.jpg"
+                alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+              <h5 id="userName"></h5>
+              <p id="name"></p>
+              <i class="far fa-edit mb-5"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-4">
+                <h6>Profile Information</h6>
+                <hr class="mt-0 mb-4">
+                <div class="row pt-1">
+                  <div class="col-6 mb-3">
+                    <h6>Email</h6>
+                    <p class="text-muted"id="email"></p>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <h6>Address</h6>
+                    <p class="text-muted" id="address">  </p>
+                  </div>
+                </div>
+                <h6>Projects</h6>
+                <hr class="mt-0 mb-4">
+                <div class="row pt-1">
+                  <div class="col-6 mb-3">
+                    <h6>Recent</h6>
+                    <p class="text-muted">Lorem ipsum</p>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <h6>Most Viewed</h6>
+                    <p class="text-muted">Dolor sit amet</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                  <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                  <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                  <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+<script src="./../JS/securityFunctions.js"></script>
+</body>
+
+</html>

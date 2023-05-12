@@ -1,0 +1,223 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "fname": "mohamed",
+      "lname": "ali",
+      "email": "mohamed@gmail.com",
+      "address": "mansoura",
+      "age": "30",
+      "userName": "Moh32523599",
+      "password": "325252332461",
+      "randomCode": 32523146,
+      "registerDay": "2023-01-09",
+      "role": "employee",
+      "dayAttend": [
+        "Wed/Jan/25/2023",
+        "Fri/Feb/24/2023"
+      ],
+      "Today": [],
+      "excuse": [
+        "Wed/Jan/25/2023 - 14:53"
+      ],
+      "absent": [],
+      "attend": [
+        "Wed/Jan/25/2023"
+      ],
+      "late": [
+        "Wed/Jan/25/2023 - 14:52"
+      ]
+    },
+    {
+      "id": 2,
+      "fname": "esraa",
+      "lname": "alaa",
+      "email": "esralaamed@gmail.com",
+      "address": "mansoura",
+      "age": "20",
+      "userName": "esraa7639",
+      "password": "4856759175617",
+      "randomCode": 32146523,
+      "registerDay": "2023-01-10",
+      "role": "employee",
+      "dayAttend": [
+        "Wed/Jan/25/2023",
+        "wed/Feb/22/2023",
+        "Fri/Feb/24/2023",
+        "Fri/Feb/24/2023"
+      ],
+      "Today": [
+        "Fri/Feb/24/2023 - 15:16",
+        "Fri/Feb/24/2023 - 15:17"
+      ],
+      "excuse": [
+        "Wed/Jan/25/2023 - 14:29"
+      ],
+      "absent": [],
+      "attend": [
+        "Wed/Jan/25/2023",
+        "Fri/Feb/24/2023 "
+      ],
+      "late": [
+        "Wed/Jan/25/2023 - 14:28",
+        "Fri/Feb/24/2023 - 15:16"
+      ]
+    },
+    {
+      "id": 3,
+      "fname": "ahmed",
+      "lname": "mohamed",
+      "email": "Ajfmohamed@gmail.com",
+      "address": "mansoura",
+      "age": "30",
+      "userName": "ahmed5963",
+      "password": "88872454869847",
+      "randomCode": 32523146,
+      "registerDay": "2023-01-05",
+      "role": "employee",
+      "dayAttend": [
+        "Wed/Jan/25/2023",
+        "wed/Feb/22/2023",
+        "Fri/Feb/24/2023"
+      ],
+      "Today": [
+        "Fri/Feb/24/2023 - 11:40",
+        "Fri/Feb/24/2023 - 11:46"
+      ],
+      "excuse": [
+        "Wed/Jan/25/2023 - 14:47"
+      ],
+      "absent": [],
+      "attend": [
+        "Wed/Jan/25/2023",
+        "Fri/Feb/24/2023"
+      ],
+      "late": [
+        "Wed/Jan/25/2023 - 14:42",
+        "Fri/Feb/24/2023 - 11:40"
+      ]
+    },
+    {
+      "id": 4,
+      "fname": "eman",
+      "lname": "mohamed",
+      "email": "emanmohamedgomaa12@gmail.com",
+      "address": " sharqia",
+      "age": "20",
+      "userName": "eman482980",
+      "password": "48298082075424",
+      "randomCode": 482980,
+      "registerDay": "2023-01-14",
+      "role": "employee",
+      "dayAttend": [
+        "Wed/Jan/25/2023",
+        "wed/Feb/22/2023",
+        "Fri/Feb/24/2023",
+        "Fri/Feb/24/2023"
+      ],
+      "Today": [
+        "Fri/Feb/24/2023 - 12:5",
+        "Fri/Feb/24/2023 - 12:6"
+      ],
+      "excuse": [
+        "Fri/Feb/24/2023 - 12:6"
+      ],
+      "absent": [],
+      "attend": [
+        "Wed/Jan/25/2023",
+        "Fri/Feb/24/2023 "
+      ],
+      "late": [
+        "Wed/Jan/25/2023 - 22:10",
+        "Fri/Feb/24/2023 - 12:5"
+      ]
+    },
+    {
+      "id": 5,
+      "fname": "eman",
+      "lname": "mohamed",
+      "email": "emandev203@gmail.com",
+      "address": "egypt",
+      "age": "21",
+      "userName": "emaa369929",
+      "password": "36992978693118",
+      "randomCode": 369929,
+      "registerDay": "2023-01-19",
+      "role": "employee",
+      "dayAttend": [
+        "Fri/Feb/24/2023"
+      ],
+      "Today": [
+        "Fri/Feb/24/2023 - 12:5"
+      ],
+      "excuse": [],
+      "absent": [],
+      "attend": [
+        "Fri/Feb/24/2023"
+      ],
+      "late": [
+        "Fri/Feb/24/2023 - 12:5"
+      ]
+    }
+  ],
+  "security": [
+    {
+      "id": 1,
+      "fname": "mohamed",
+      "lname": "ali",
+      "email": "mohamed@gmail.com",
+      "address": "mansoura",
+      "age": "30",
+      "userName": "Moh32523146",
+      "password": "3252312332461",
+      "randomCode": 32523146,
+      "registerDay": "2023-01-20",
+      "role": "security",
+      "dayAttend": [],
+      "Today": [],
+      "excuse": [],
+      "absent": [],
+      "attend": [],
+      "late": []
+    },
+    {
+      "id": 2,
+      "fname": "badr",
+      "lname": "mohamed",
+      "email": "emandev203@gmail.com",
+      "address": "sharqia",
+      "age": "21",
+      "userName": "badr692273",
+      "password": "69227321745968",
+      "randomCode": 692273,
+      "registerDay": "2023-01-19",
+      "role": "security",
+      "dayAttend": [],
+      "Today": [],
+      "excuse": [],
+      "absent": [],
+      "attend": [],
+      "late": []
+    },
+    {
+      "id": 3,
+      "fname": "badr",
+      "lname": "mohamed",
+      "email": "emandev203@gmail.com",
+      "address": "sharqia",
+      "age": "21",
+      "userName": "badr692273",
+      "password": "69227321745968",
+      "randomCode": 692273,
+      "registerDay": "2023-01-19",
+      "role": "security",
+      "dayAttend": [],
+      "Today": [],
+      "excuse": [],
+      "absent": [],
+      "attend": [],
+      "late": []
+    }
+  ],
+  "pending": []
+}
